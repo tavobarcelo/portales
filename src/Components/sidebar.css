@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 100vh;
+    width: 11vh;
+    min-width: 100px;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-navbar{
+    width: 80%;
+    margin-top: 1vh;
+}
+.options{
+    height: 100%;
+    list-style-type: none;
+}
+
+.options .option-select, .bottom-options .option-select{
+    margin-bottom: 5px;
+}
+.option-select{
+    margin: 5px;
+    padding: 8px;
+    height: 8vh;
+    width: 90%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+
+}
+.option-select a{
+    font-family:lato;
+    font-weight: 600;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.option-select a img{
+    object-fit: contain;
+    height: 70%;
+    filter: invert(46%) sepia(9%) saturate(6%) hue-rotate(63deg) brightness(96%) contrast(93%);
+}
+
+.bottom-options{
+    margin-bottom: 15px;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.option-select:hover {
+    color: white;
+    transform: translateY(-3px);
+    background-color: tomato;
+    animation: moveInBottom .2s;
+    box-shadow:  23px 23px 47px #cccccc,
+             -23px -23px 47px #f4f4f4;
+    
+}
+.option-select:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-height: 769px) {
+    .navbar{
+        display: none;
+    }
+  }
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
