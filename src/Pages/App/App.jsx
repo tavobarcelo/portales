@@ -16,7 +16,10 @@ function App() {
 
         <div className='right-container'>
           <header className='top-container'>
-            <UserForm/>
+            <div className='forms'>
+              <UserForm/>
+            </div>
+            
           </header>
 
           <body >

@@ -92,7 +92,7 @@ function Sidebar() {
 
         <ul className="bottom-options">
           <li className="option-select">
-            <a href="#">
+            <a href="#" onClick={() => console.log("hola")}>
               <img src={out} alt="iconOut" />
               <p>SALIR</p>
             </a>            
