@@ -24,7 +24,7 @@ function Sidebar() {
         <div className="principal-options">
 
           <ul className="options">
-            <li className="option-select">
+            <li className="option-select home-button">
               <a href="#">
                 
                 <img src={home} alt="iconHome" />
@@ -32,56 +32,56 @@ function Sidebar() {
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select orders-button">
               <a href="#">
                 <img src={orders} alt="iconHome" />
                 <p>ORDENES</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select foods-button">
               <a href="#">
                 <img src={food} alt="iconHome" />
                 <p>PLATILLOS</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select drinks-button">
               <a href="#">
                 <img src={drinks} alt="iconHome" />
                 <p>BEBIDAS</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select tags-button">
               <a href="#">
                 <img src={categories} alt="iconHome" />
                 <p>CATEGORIAS</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select users-button">
               <a href="#">
                 <img src={users} alt="iconHome" />
                 <p>USUARIOS</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select sales-button">
               <a href="#">
                 <img src={sales} alt="iconHome" />
                 <p>VENTAS</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select reports-button">
               <a href="#">
                 <img src={reports} alt="iconHome" />
                 <p>REPORTES</p>
               </a>              
             </li>
 
-            <li className="option-select">
+            <li className="option-select binnacles-button">
               <a href="#">
                 <img src={binnacle} alt="" />
                 <p>BITACORAS</p>
@@ -92,7 +92,7 @@ function Sidebar() {
 
         <ul className="bottom-options">
           <li className="option-select">
-            <a href="#" onClick={() => console.log("hola")}>
+            <a href="#" onClick={() => function (){}}>
               <img src={out} alt="iconOut" />
               <p>SALIR</p>
             </a>            
